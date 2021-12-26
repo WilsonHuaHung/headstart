@@ -39,6 +39,8 @@ img {vertical-align: middle;}
  
 /* navbar mod */
 .topnav-right {
-  float: right;
-  padding-top: 100px;
+  z-index: 9999999999999;
+  position: absolute;
+  top: 85px;
+  right: 3px;
 }
