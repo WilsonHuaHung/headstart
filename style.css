@@ -39,8 +39,7 @@ img {vertical-align: middle;}
  
 /* navbar mod */
 .topnav-right {
-  z-index: 9999999999999;
-  position: absolute;
-  top: 85px;
-  right: 3px;
+  position:absolute
+  bottom:0;   
+  right:0;    
 }
