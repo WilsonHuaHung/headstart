@@ -40,4 +40,5 @@ img {vertical-align: middle;}
 /* navbar mod */
 .topnav-right {
   float: right;
+  position: absolute;
 }
