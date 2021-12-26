@@ -16,10 +16,10 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 0%;
   width: 100%;
   margin-top: -22px;
-  padding: 100px;
+  padding: 16px;
   color: black;
   font-weight: bold;
   font-size: 18px;
