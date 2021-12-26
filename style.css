@@ -36,4 +36,8 @@ img {vertical-align: middle;}
   background-color: #f1f1f1;
   color: black;
 }
-
+ 
+/* navbar mod */
+.topnav-right {
+  float: right;
+}
