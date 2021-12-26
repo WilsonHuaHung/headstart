@@ -40,6 +40,6 @@ img {vertical-align: middle;}
 /* navbar mod */
 .topnav-right {
   position: absolute;
-  bottom: 1;   
+  bottom: 0;   
   right: 0;    
 }
