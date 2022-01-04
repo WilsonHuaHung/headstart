@@ -47,20 +47,19 @@
 
 <!-- END OF NAVBAR -->
   
-  
-<div id="mySidebar" class="sidebar w3-hide-large w3-hide-medium">
+ 
+
+<div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  <br> </br>
-  <br> </br>
-  <br> </br>
   <a href="https://WilsonHuaHung.github.io/headstart/main.html" class="w3-bar-item w3-button w3-black"> Home </a>
   <a href="https://WilsonHuaHung.github.io/headstart/about.html" class="w3-bar-item w3-button w3-black"> About </a>
   <a href="https://WilsonHuaHung.github.io/headstart/team.html" class="w3-bar-item w3-button w3-black"> Team </a>
   <a href="https://WilsonHuaHung.github.io/headstart/contact.html" class="w3-bar-item w3-button w3-black"> Contact </a>
 </div>
 
-<div id="main">
-  <button class="openbtn w3-hide-large w3-hide-medium" onclick="openNav()"> ☰ </button>  
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+  
 
 
 
@@ -129,13 +128,11 @@
 
 <script>
 function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
+  document.getElementById("mySidenav").style.width = "100%";
 }
 
 function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
+  document.getElementById("mySidenav").style.width = "0";
 }
 </script>
 
