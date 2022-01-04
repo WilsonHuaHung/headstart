@@ -38,16 +38,18 @@
   <!-- Navbar on small screens 
  <div id="navDemo" class="w3-bar-item w3-hide w3-hide-large w3-hide-medium w3-black" style="position:fixed; top:90px; right:0; z-index:2; ">
 -->
-  <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none; right:0; z-index:2;" id="rightMenu">
-    <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+  <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-right" style="width:200px;right:0;" id="mySidebar">
+    <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
     <a href="https://WilsonHuaHung.github.io/headstart/about.html" class="w3-bar-item w3-button w3-black"> About </a>
     <a href="https://WilsonHuaHung.github.io/headstart/board.html" class="w3-bar-item w3-button w3-black"> Board </a>
     <a href="https://WilsonHuaHung.github.io/headstart/contact.html" class="w3-bar-item w3-button w3-black"> Contact </a>
     </div>
   
+  <div class="w3-main" style="margin-right:200px">
   <div class="w3-teal">
-     <button class="w3-button w3-teal w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>
+    <button class="w3-button w3-teal w3-xlarge w3-right w3-hide-large" onclick="w3_open()">&#9776;</button>
     </div>
+  </div>
 
 <a href="https://wilsonhuahung.github.io/headstart/main.html" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-hover-white"><img src="logo.png" style="width:30%; height:10%; position:fixed; top:20px; left:40px; z-index:2;"> </a>
 <!-- END OF NAVBAR -->
@@ -117,12 +119,12 @@
 
 
 <script>
-function openRightMenu() {
-  document.getElementById("rightMenu").style.display = "block";
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
 }
 
-function closeRightMenu() {
-  document.getElementById("rightMenu").style.display = "none";
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
 }
 </script>
 
