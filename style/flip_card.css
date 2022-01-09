@@ -24,6 +24,7 @@
 .container:hover .overlay {
   bottom: 0;
   height: 100%;
+  width: 110%;
 }
 
 .text {
