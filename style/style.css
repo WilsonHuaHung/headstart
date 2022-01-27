@@ -44,17 +44,20 @@ img {vertical-align: middle;}
   right: 0;    
 }
 
+
+
+
 /* Navbar container */
 .navbar {
   overflow: hidden;
   background-color: #333;
-  font-family: Arial;
+  font-family: "Lato", sans-serif;
 }
 
 /* Links inside the navbar */
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 24px;
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -107,7 +110,7 @@ img {vertical-align: middle;}
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
+.dropdown-content a:hover {background-color: white}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
