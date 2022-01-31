@@ -3,13 +3,12 @@
 img {vertical-align: middle;}
 
 @font-face {
-  src: url(style/circular-std-medium-500.ttf);
   font-family: Circular Std;
+  src: url(style/circular-std-medium-500.ttf);
 }
 
-html *
-{
-    font-family: Circular Std !important;
+a {
+    font-family: Circular Std ;
 }
 /* Slideshow container */
 .slideshow-container {
