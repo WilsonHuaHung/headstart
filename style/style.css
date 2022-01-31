@@ -7,11 +7,6 @@ img {vertical-align: middle;}
   src: url(https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap);
 }
 
-html *
-{ 
-  family-font: 'Nunito' !important;
-}
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
