@@ -3,16 +3,16 @@
 img {vertical-align: middle;}
 
 @font-face {
-  font-family: Circular Std;
-  src: url(style/circular-std-medium-500.ttf);
+  font-family: 'Rubik', sans-serif;
+  src: url(https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet);
 }
 
 a {
-  font-family: Circular Std ;
+  font-family: 'Rubik', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Circular Std;
+  font-family: 'Rubik', sans-serif;
 }
 
 /* Slideshow container */
