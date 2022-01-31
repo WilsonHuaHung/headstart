@@ -7,9 +7,9 @@ img {vertical-align: middle;}
   font-family: Circular Std;
 }
 
-body
+html *
 {
-    font-family: Circular Std;
+    font-family: Circular Std !important;
 }
 /* Slideshow container */
 .slideshow-container {
