@@ -3,12 +3,12 @@
 img {vertical-align: middle;}
 
 @font-face {
-  src: url(https://fonts.googleapis.com/css2?family=Comforter&display=swap);
-  font-family: 'Comforter', cursive;
+  src: url(style/circular-std-medium-500.ttf);
+  font-family: Circular Std;
 }
 
 p {
-  font-family: Comforter;
+  font-family: Circular Std;
 }
 
 /* Slideshow container */
