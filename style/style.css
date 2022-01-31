@@ -2,6 +2,15 @@
 .mySlides1, .mySlides2 {display: none}
 img {vertical-align: middle;}
 
+@font-face {
+  src: url(style/circular-std-medium-500.ttf);
+  font-family: Circular Std;
+}
+
+.paragraph {
+  font-family: Circular Std;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
